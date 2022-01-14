@@ -9,7 +9,7 @@ public class DateTest {
     public static void main(String []args) {
         // 格式化时间
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
-        String date = sdf.format(new DateTest());
+        String date = sdf.format(new Date());
         System.out.println(date);
 
         Timestamp timestamp_1 = Timestamp.valueOf("1970-01-01 00:00:001");
@@ -19,8 +19,8 @@ public class DateTest {
 
 
         // a instanceof B: 判断a是否为b的实例, 返回Boolean
-        DateTest timDate = new DateTest();
-        if(timDate instanceof DateTest){
+        Date timDate = new Date();
+        if(timDate instanceof Date){
             System.out.println(timDate);
         }
 

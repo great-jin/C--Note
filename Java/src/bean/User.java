@@ -1,4 +1,4 @@
-package code;
+package bean;
 
 public class User {
     private int ID;

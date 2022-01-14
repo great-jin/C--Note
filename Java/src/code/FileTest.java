@@ -9,6 +9,7 @@ public class FileTest {
         // the local file path: E:\TEMP\CSV\1.csv
         File file = new File("E:\\TEMP\\CSV\\1.csv");
         if (file.isFile()) {
+            // put io operations in try() than you don't have to carry out io.close
             try(FileInputStream fis = new FileInputStream(file)) {
                 int ch;
                 while ((ch = fis.read()) != -1) {
