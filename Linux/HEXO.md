@@ -1,6 +1,3 @@
-## HEXO-BLOG
-###MY HEXOBLOG
-
 ### 一、环境安装
 
 1.查看node版本：`` node -v ``
